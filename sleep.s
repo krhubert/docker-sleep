@@ -10,6 +10,6 @@ section .text
 .loop:
     mov rax, 35
     mov rdi, timespec
-    xor rsi, rsi        
+    xor rsi, rsi
     syscall
-		jmp .loop
+    jmp .loop
